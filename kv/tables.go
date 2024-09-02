@@ -20,8 +20,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gateway-fm/cdk-erigon-lib/gointerfaces/types"
 	"fmt"
+
+	"github.com/gateway-fm/cdk-erigon-lib/gointerfaces/types"
 )
 
 // DBSchemaVersion versions list
@@ -630,7 +631,7 @@ var ChaindataTables = []string{
 	L1_INFO_TREE_UPDATES,
 	L1_INFO_TREE_UPDATES_BY_GER,
 	BLOCK_L1_INFO_TREE_INDEX,
-	BLOCK_L1_INFO_TREE_INDEX_PROGRESS,
+	//BLOCK_L1_INFO_TREE_INDEX_PROGRESS,
 	L1_INJECTED_BATCHES,
 	BLOCK_INFO_ROOTS,
 	BLOCK_L1_BLOCK_HASHES,
