@@ -660,7 +660,7 @@ var ChaindataTables = []string{
 	TableAccountValues,
 	TableMetadata,
 	TableHashKey,
-	TablePoolLimbo,
+	// TablePoolLimbo,
 }
 
 const (
